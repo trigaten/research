@@ -3,7 +3,7 @@ import fnmatch
 import os
 import sys
 from setuptools import setup, Extension
-
+import setuptools
 # Requiring python 3.4+.
 # To simplify code for Tornado coroutines return statements, we don't support Python 3.3
 # ( more info here: http://www.tornadoweb.org/en/stable/guide/coroutines.html#coroutines ).
